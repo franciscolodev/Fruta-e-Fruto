@@ -1,5 +1,7 @@
-.quienes__descripcion{
+.quienes__descripcion {
     color: #595959;
-    font-size: 1.75rem;
+    font-size: clamp(1.125rem, 4vw, 1.75rem);
     font-weight: 100;
+    margin: 0 auto;
+    max-width: 800px;
 }

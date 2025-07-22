@@ -1,6 +1,7 @@
-.persona__nombre{
+.persona__nombre {
     color: #da2b1f;
     font-family: Pacifico, cursive;
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    margin: 1rem 0 0.5rem;
+    text-align: center;
 }

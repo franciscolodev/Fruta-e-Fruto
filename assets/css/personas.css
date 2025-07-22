@@ -1,17 +1,15 @@
-.personas{
+.personas {
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
-@media screen and (min-width: 0){
-    .personas{
+@media screen and (max-width: 767px) {
+    .personas {
         flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .personas{
-        flex-direction: row;
+        align-items: center;
+        padding: 2rem 1rem;
     }
 }

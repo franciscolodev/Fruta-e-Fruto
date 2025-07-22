@@ -1,7 +1,7 @@
-.quienes__titulo{
+.quienes__titulo {
     color: #da2b1f;
-    font-family: pacifico, cursive;
+    font-family: Pacifico, cursive;
     font-weight: 400;
-    font-size: 3.1875rem;
+    font-size: clamp(2rem, 6vw, 3.1875rem);
     margin-bottom: 1rem;
 }
